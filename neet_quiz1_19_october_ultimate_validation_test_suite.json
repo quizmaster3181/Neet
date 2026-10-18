@@ -1,0 +1,769 @@
+[
+  {
+    "id": "19_oct_26_100001",
+    "question": "Test 1: Standard format with both image and image_url.",
+    "options": [
+      "1. Alpha",
+      "2. Beta",
+      "3. Gamma",
+      "4. Delta"
+    ],
+    "answer": "1",
+    "explanation": "Standard correct format.",
+    "difficulty_level": "Easy",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/q_100001.jpg",
+    "image_url": "https://raw.githubusercontent.com/user/repo/main/images/q_100001.jpg"
+  },
+  {
+    "id": "19_oct_26_100002",
+    "question": "Test 2: Alias 'q' instead of 'question', only 'image_url'.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "2",
+    "explanation": "Alias parsing test.",
+    "difficulty_level": "Medium",
+    "exam_year": "2023",
+    "check_status": "checked",
+    "image_url": "https://example.com/img2.jpg"
+  },
+  {
+    "id": "19_oct_26_100003",
+    "question": "Test 3: Alias 'ques' and 'choices', only 'image'.",
+    "options": [
+      "1. Red",
+      "2. Green",
+      "3. Blue",
+      "4. Yellow"
+    ],
+    "answer": "3",
+    "explanation": "Testing solution alias.",
+    "difficulty_level": "Hard",
+    "exam_year": "UPSC",
+    "check_status": "checked",
+    "image": "images/colors.jpg"
+  },
+  {
+    "id": "19_oct_26_100004",
+    "question": "Test 4: Options provided as a dictionary.",
+    "options": [
+      "1. Cat",
+      "2. Dog",
+      "3. Bird",
+      "4. Fish"
+    ],
+    "answer": "2",
+    "explanation": "Testing reason alias and dict options.",
+    "difficulty_level": "Easy",
+    "exam_year": "2022",
+    "check_status": "checked",
+    "image": "images/pets.jpg"
+  },
+  {
+    "id": "19_oct_26_100005",
+    "question": "Test 5: Options provided as flat option1, option2 keys.",
+    "options": [
+      "1. One",
+      "2. Two",
+      "3. Three",
+      "4. Four"
+    ],
+    "answer": "2",
+    "explanation": "Testing flat option keys.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/numbers.jpg"
+  },
+  {
+    "id": "19_oct_26_100006",
+    "question": "Test 6: Options provided as flat a, b, c, d keys.",
+    "options": [
+      "1. Apple",
+      "2. Banana",
+      "3. Cherry",
+      "4. Date"
+    ],
+    "answer": "1",
+    "explanation": "Testing flat letter keys.",
+    "difficulty_level": "Easy",
+    "exam_year": "2021",
+    "check_status": "checked",
+    "image_url": "https://example.com/fruit.jpg"
+  },
+  {
+    "id": "19_oct_26_100007",
+    "question": "Test 7: Only 2 options provided (Code should pad with 'None of the above').",
+    "options": [
+      "1. True",
+      "2. False",
+      "3. None of the above",
+      "4. None of the above"
+    ],
+    "answer": "1",
+    "explanation": "Testing option padding logic.",
+    "difficulty_level": "Easy",
+    "exam_year": "2020",
+    "check_status": "checked",
+    "image": "images/bool.jpg"
+  },
+  {
+    "id": "19_oct_26_100008",
+    "question": "Test 8: Answer provided as the exact text match.",
+    "options": [
+      "1. Mercury",
+      "2. Venus",
+      "3. Earth",
+      "4. Mars"
+    ],
+    "answer": "3",
+    "explanation": "Code should match 'Earth' to option 3.",
+    "difficulty_level": "Easy",
+    "exam_year": "2019",
+    "check_status": "checked",
+    "image": "images/earth.jpg"
+  },
+  {
+    "id": "19_oct_26_100009",
+    "question": "Test 9: Answer provided as a list for multiple choice.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1,3",
+    "explanation": "Code should normalize list to '1,3'.",
+    "difficulty_level": "Hard",
+    "exam_year": "2025",
+    "check_status": "checked",
+    "image": "images/multi.jpg"
+  },
+  {
+    "id": "19_oct_26_747102",
+    "question": "Test 10: Missing ID entirely (Code should auto-generate 6-digit ID).",
+    "options": [
+      "1. Up",
+      "2. Down",
+      "3. Left",
+      "4. Right"
+    ],
+    "answer": "1",
+    "explanation": "Testing auto ID generation.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/dir.jpg"
+  },
+  {
+    "id": "19_oct_26_100011",
+    "question": "Test 11: Answer provided as uppercase letter 'C'.",
+    "options": [
+      "1. Opt1",
+      "2. Opt2",
+      "3. Opt3",
+      "4. Opt4"
+    ],
+    "answer": "3",
+    "explanation": "Should normalize 'C' to '3'.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/opt.jpg"
+  },
+  {
+    "id": "19_oct_26_100012",
+    "question": "Test 12: No images attached.",
+    "options": [
+      "1. None",
+      "2. Some",
+      "3. All",
+      "4. Few"
+    ],
+    "answer": "3",
+    "explanation": "Pure text question test.",
+    "difficulty_level": "Easy",
+    "exam_year": "2022",
+    "check_status": "checked"
+  },
+  {
+    "id": "19_oct_26_100013",
+    "question": "Case sensitivity test?",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "2",
+    "explanation": "Code converts keys to lowercase.",
+    "difficulty_level": "Hard",
+    "exam_year": "2021",
+    "check_status": "checked",
+    "image": "images/case.jpg"
+  },
+  {
+    "id": "19_oct_26_100014",
+    "question": "Test 14: Answer hidden in a descriptive string.",
+    "options": [
+      "1. Red",
+      "2. Blue",
+      "3. Green",
+      "4. Yellow"
+    ],
+    "answer": "2",
+    "explanation": "Regex should catch the 'b' and map to '2'.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/regex.jpg"
+  },
+  {
+    "id": "19_oct_26_100015",
+    "question": "Test 15: Options with weird prefixes.",
+    "options": [
+      "1. Option A",
+      "2. Option B",
+      "3. Option C",
+      "4. Option D"
+    ],
+    "answer": "3",
+    "explanation": "Prefix cleaner should strip 'a)', 'b-', etc.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image_url": "https://example.com/prefix.jpg"
+  },
+  {
+    "id": "19_oct_26_100016",
+    "question": "Test 16: Extra options (more than 4).",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Code slices options to max 4.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/extra.jpg"
+  },
+  {
+    "id": "19_oct_26_100018",
+    "question": "Test 18: Answer matching exact text but case-insensitive.",
+    "options": [
+      "1. LOWER",
+      "2. UPPER",
+      "3. MIXED",
+      "4. camelCase"
+    ],
+    "answer": "1",
+    "explanation": "Should match option 1.",
+    "difficulty_level": "Easy",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/text.jpg"
+  },
+  {
+    "id": "19_oct_26_100019",
+    "question": "Test 19: Only Difficulty provided, no Exam Year.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Missing exam year.",
+    "difficulty_level": "Easy",
+    "exam_year": "",
+    "check_status": "checked",
+    "image": "images/test.jpg"
+  },
+  {
+    "id": "19_oct_26_100020",
+    "question": "Test 20: Only Exam Year provided, no Difficulty.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "2",
+    "explanation": "Missing difficulty.",
+    "difficulty_level": "",
+    "exam_year": "NEET",
+    "check_status": "checked",
+    "image": "images/test.jpg"
+  },
+  {
+    "id": "19_oct_26_100021",
+    "question": "Test 21: Fully aliased question with image.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing aliases.",
+    "difficulty_level": "Hard",
+    "exam_year": "2022",
+    "check_status": "checked",
+    "image": "images/test21.jpg"
+  },
+  {
+    "id": "19_oct_26_100022",
+    "question": "Test 22: Blank string as option.",
+    "options": [
+      "1. Valid",
+      "2. Valid2",
+      "3. None of the above",
+      "4. None of the above"
+    ],
+    "answer": "1",
+    "explanation": "Code strips blank options and pads.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/blank.jpg"
+  },
+  {
+    "id": "19_oct_26_100023",
+    "question": "Test 23: Numeric option values.",
+    "options": [
+      "1. 10",
+      "2. 20",
+      "3. 30",
+      "4. 40"
+    ],
+    "answer": "3",
+    "explanation": "Should convert ints to strings and match 30 to option 3.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/num.jpg"
+  },
+  {
+    "id": "19_oct_26_100024",
+    "question": "Test 24: Array of dicts for options (malformed).",
+    "options": [
+      "1. {'a': '1'}",
+      "2. {'b': '2'}",
+      "3. None of the above",
+      "4. None of the above"
+    ],
+    "answer": "1",
+    "explanation": "Edge case testing.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked"
+  },
+  {
+    "id": "19_oct_26_100025",
+    "question": "Test 25: Valid standard with missing image keys.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Standard check.",
+    "difficulty_level": "Easy",
+    "exam_year": "2024",
+    "check_status": "checked"
+  },
+  {
+    "id": "19_oct_26_100026",
+    "question": "Test 26: Boolean answer check.",
+    "options": [
+      "1. True",
+      "2. False",
+      "3. Maybe",
+      "4. Never"
+    ],
+    "answer": "1",
+    "explanation": "Should match option 1.",
+    "difficulty_level": "Easy",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/bool2.jpg"
+  },
+  {
+    "id": "19_oct_26_100027",
+    "question": "Test 27: Answer is exact numeric match to option prefix.",
+    "options": [
+      "1. Apple",
+      "2. Banana",
+      "3. Cherry",
+      "4. Date"
+    ],
+    "answer": "1",
+    "explanation": "Should match option 1 after stripping prefixes.",
+    "difficulty_level": "Easy",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/apple.jpg"
+  },
+  {
+    "id": "19_oct_26_100029",
+    "question": "Test 29: Null values in JSON.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. None"
+    ],
+    "answer": "1",
+    "explanation": "Tests null handling.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked"
+  },
+  {
+    "id": "19_oct_26_100030",
+    "question": "Test 30: Valid image url with complex parameters.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Tests URL persistence.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image_url": "https://example.com/img?id=123&size=large"
+  },
+  {
+    "id": "19_oct_26_100031",
+    "question": "Test 31: Very long question text.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Tests length limits.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/long.jpg"
+  },
+  {
+    "id": "19_oct_26_100032",
+    "question": "Test 32: Very long explanation text.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Tests length limits for explanation.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/long_exp.jpg"
+  },
+  {
+    "id": "19_oct_26_100033",
+    "question": "Test 33: Options with HTML tags.",
+    "options": [
+      "1. <b>A</b>",
+      "2. <i>B</i>",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Tests parsing of HTML in strings.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/html.jpg"
+  },
+  {
+    "id": "19_oct_26_100034",
+    "question": "Test 34: Special characters in question!@#$%",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Tests special characters.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/spec.jpg"
+  },
+  {
+    "id": "19_oct_26_100035",
+    "question": "Test 35: Answer formatted as '1,2,3'.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1,2,3",
+    "explanation": "Multiple correct answers.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/multi2.jpg"
+  },
+  {
+    "id": "19_oct_26_100036",
+    "question": "Test 36: Options as 'a', 'b', 'c', 'd' keys with nulls.",
+    "options": [
+      "1. Apple",
+      "2. Banana",
+      "3. None",
+      "4. Date"
+    ],
+    "answer": "1",
+    "explanation": "Tests nulls in direct keys.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/null.jpg"
+  },
+  {
+    "id": "19_oct_26_123456",
+    "question": "Test 37: 6-digit ID at start of string.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Regex checks for end of string, this might auto-generate.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/regex2.jpg"
+  },
+  {
+    "id": "19_oct_26_100038",
+    "question": "Testing trim on keys.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Keys should be trimmed.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/trim.jpg"
+  },
+  {
+    "id": "19_oct_26_100039",
+    "question": "Test 39: Answer is 'D' (uppercase letter).",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "4",
+    "explanation": "Should map to 4.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/d.jpg"
+  },
+  {
+    "id": "19_oct_26_100040",
+    "question": "Test 40: Both image and image_url provided, testing prioritization.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing both fields.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/q_100040.jpg",
+    "image_url": "https://example.com/img40.jpg"
+  },
+  {
+    "id": "19_oct_26_100041",
+    "question": "Test 41: No difficulty or year.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing missing metadata.",
+    "difficulty_level": "",
+    "exam_year": "",
+    "check_status": "checked",
+    "image": "images/meta.jpg"
+  },
+  {
+    "id": "19_oct_26_100042",
+    "question": "Test 42: Number formatted as string in difficulty.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing numeric strings.",
+    "difficulty_level": "1",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/num2.jpg"
+  },
+  {
+    "id": "19_oct_26_100043",
+    "question": "Test 43: Answer is the string '3'.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "3",
+    "explanation": "Direct numeric match.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/3.jpg"
+  },
+  {
+    "id": "19_oct_26_100044",
+    "question": "Test 44: 'check_status' included in input.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing override of check_status.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/status.jpg"
+  },
+  {
+    "id": "19_oct_26_100045",
+    "question": "Test 45: Completely random keys included.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing ignore logic for unknown keys.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/random.jpg"
+  },
+  {
+    "id": "19_oct_26_100046",
+    "question": "Test 46: 3 options provided.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. None of the above"
+    ],
+    "answer": "1",
+    "explanation": "Should pad 1 option.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/pad.jpg"
+  },
+  {
+    "id": "19_oct_26_100047",
+    "question": "Test 47: Answer matches padded option 'None of the above'.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. None of the above"
+    ],
+    "answer": "4",
+    "explanation": "Should match option 4 after padding.",
+    "difficulty_level": "Hard",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/none.jpg"
+  },
+  {
+    "id": "19_oct_26_100048",
+    "question": "Test 48: Answer is 'option 2'.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "2",
+    "explanation": "Regex should extract the 2.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/opt2.jpg"
+  },
+  {
+    "id": "19_oct_26_100049",
+    "question": "Test 49: 'answer' and 'correct' both provided.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "1",
+    "explanation": "Testing key prioritization.",
+    "difficulty_level": "Medium",
+    "exam_year": "2024",
+    "check_status": "checked",
+    "image": "images/prior.jpg"
+  },
+  {
+    "id": "19_oct_26_100050",
+    "question": "Test 50: Final test, full standard format.",
+    "options": [
+      "1. A",
+      "2. B",
+      "3. C",
+      "4. D"
+    ],
+    "answer": "4",
+    "explanation": "End of test suite.",
+    "difficulty_level": "Hard",
+    "exam_year": "2025",
+    "check_status": "checked",
+    "image": "images/final.jpg",
+    "image_url": "https://example.com/final.jpg"
+  }
+]
