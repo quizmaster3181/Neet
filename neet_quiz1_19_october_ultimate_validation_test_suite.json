@@ -426,7 +426,9 @@
     "explanation": "Tests null handling.",
     "difficulty_level": "Medium",
     "exam_year": "2024",
-    "check_status": "checked"
+    "check_status": "checked",
+    "image": "images/q_100029.jpg",
+    "image_url": "https://raw.githubusercontent.com/quizmaster3181/Neet/main/images/q_100029.jpg"
   },
   {
     "id": "19_oct_26_100030",
