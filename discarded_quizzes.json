@@ -10,5 +10,17 @@
     "source_chapter": "neet_quiz1_19_october_ultimate_validation_test_suite.json",
     "error_reason": "Missing or invalid 'answer' ()",
     "raw_item": "Test 28: Empty string for answer."
+  },
+  {
+    "discarded_at_ist": "19 Oct 2026, 01:42:17 AM IST",
+    "source_chapter": "neet_quiz2_19_october_ultimate_validation_test_suite.json",
+    "error_reason": "Missing or insufficient 'options' (found 1)",
+    "raw_item": "Test 17: Only 1 option provided (Should fail validation but testing input)."
+  },
+  {
+    "discarded_at_ist": "19 Oct 2026, 01:42:17 AM IST",
+    "source_chapter": "neet_quiz2_19_october_ultimate_validation_test_suite.json",
+    "error_reason": "Missing or invalid 'answer' ()",
+    "raw_item": "Test 28: Empty string for answer."
   }
 ]
