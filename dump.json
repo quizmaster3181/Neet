@@ -1,0 +1,9 @@
+{
+  "dump_status": "EMPTY_READY_FOR_MOBILE_PASTE",
+  "last_harvested_ist": "Never",
+  "last_taken_count": 0,
+  "last_target_chapter": "None",
+  "instructions": "Paste an array of quizzes or questions list here from GitHub Mobile. Optional: add 'chapter_name': 'your_topic' at top.",
+  "chapter_name": "",
+  "questions": []
+}
